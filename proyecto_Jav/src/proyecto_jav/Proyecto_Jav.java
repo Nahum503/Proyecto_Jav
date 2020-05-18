@@ -5,17 +5,41 @@
  */
 package proyecto_jav;
 
-/**
- *
- * @author ADMIN
- */
 public class Proyecto_Jav {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+     private long CarnetEstudiante;
+    private String NombreEstudiante;
+    private String ApellidosEstudiante;
+
+    public long getCarnetEstudiante() {
+        return CarnetEstudiante;
     }
-    
+
+    public void setCarnetEstudiante(long carnetEstudiante) {
+        this.CarnetEstudiante = carnetEstudiante;
+    }
+
+    public String getNombreEstudiante() {
+        return NombreEstudiante;
+    }
+
+    public void setNombreEstudiante(String nombreEstudiante) {
+        this.NombreEstudiante = nombreEstudiante;
+    }
+
+    public String getApellidosEstudiante() {
+        return ApellidosEstudiante;
+    }
+
+    public void setApellidosEstudiante(String apellidosEstudiante) {
+        this.ApellidosEstudiante = apellidosEstudiante;
+    }
 }
+
+    
+    
+
