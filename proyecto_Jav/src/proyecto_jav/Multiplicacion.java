@@ -5,6 +5,7 @@
  */
 package proyecto_jav;
 
+import java.util.Scanner;
 
 /**
  *
